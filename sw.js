@@ -1,8 +1,3 @@
-// ════════════════════════════════════════════════════════
-// SERVICE WORKER — HUB Semillero Padre Luis Toro
-// Version: 2.1.0 | 2026
-// ════════════════════════════════════════════════════════
-
 const CACHE_NAME = 'hub-semillero-v2';
 const OFFLINE_URL = './index.html';
 
@@ -11,6 +6,9 @@ const PRECACHE_URLS = [
   './',
   './index.html',
   './manifest.json',
+  './icon-192.png',
+  './icon-512.png',
+  './icon.png',
   // Fuentes externas
   'https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;700&display=swap',
   'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css',
