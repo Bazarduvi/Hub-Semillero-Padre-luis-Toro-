@@ -1,0 +1,45 @@
+{
+  "name": "HUB Semillero — Padre Luis Toro",
+  "short_name": "HUB Semillero",
+  "description": "Hub digital de evangelización católica. Quiz Bíblico, Cine Virtual, Zona Infantil, Biblioteca Doctrinal, Reflexiones Diarias y Agente Ampelier.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#4f46e5",
+  "orientation": "any",
+  "lang": "es",
+  "categories": ["education", "religion", "entertainment"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='80' fill='%230f172a'/%3E%3Cellipse cx='256' cy='300' rx='190' ry='160' fill='%23f59e0b'/%3E%3Cpath d='M150 110 Q110 50 70 105' stroke='%23e5e7eb' stroke-width='28' fill='none' stroke-linecap='round'/%3E%3Cpath d='M362 110 Q402 50 442 105' stroke='%23e5e7eb' stroke-width='28' fill='none' stroke-linecap='round'/%3E%3Ccircle cx='180' cy='275' r='32' fill='white'/%3E%3Ccircle cx='188' cy='283' r='16' fill='%231f2937'/%3E%3Ccircle cx='332' cy='275' r='32' fill='white'/%3E%3Ccircle cx='340' cy='283' r='16' fill='%231f2937'/%3E%3Cellipse cx='256' cy='360' rx='95' ry='55' fill='%23fef08a'/%3E%3Cpath d='M210 378 Q256 408 302 378' fill='none' stroke='%2378350f' stroke-width='10' stroke-linecap='round'/%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='30' fill='%230f172a'/%3E%3Cellipse cx='96' cy='112' rx='72' ry='60' fill='%23f59e0b'/%3E%3Cpath d='M56 42 Q42 18 26 40' stroke='%23e5e7eb' stroke-width='11' fill='none' stroke-linecap='round'/%3E%3Cpath d='M136 42 Q150 18 166 40' stroke='%23e5e7eb' stroke-width='11' fill='none' stroke-linecap='round'/%3E%3Ccircle cx='68' cy='104' r='12' fill='white'/%3E%3Ccircle cx='71' cy='107' r='6' fill='%231f2937'/%3E%3Ccircle cx='124' cy='104' r='12' fill='white'/%3E%3Ccircle cx='127' cy='107' r='6' fill='%231f2937'/%3E%3Cellipse cx='96' cy='136' rx='36' ry='21' fill='%23fef08a'/%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Quiz Bíblico",
+      "short_name": "Quiz",
+      "url": "./index.html#quiz"
+    },
+    {
+      "name": "Zona Infantil",
+      "short_name": "Dibujos",
+      "url": "./index.html#kids"
+    },
+    {
+      "name": "Cine Virtual",
+      "short_name": "Cine",
+      "url": "./index.html#cinema"
+    }
+  ],
+  "prefer_related_applications": false
+}
